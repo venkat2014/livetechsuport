@@ -1,3 +1,23 @@
+export interface AppConfig {
+  pageTitle: string;
+  pageDescription: string;
+  companyName: string;
+
+  supportsChatInput: boolean;
+  supportsVideoInput: boolean;
+  supportsScreenShare: boolean;
+  isPreConnectBufferEnabled: boolean;
+
+  logo: string;
+  startButtonText: string;
+  accent?: string;
+  logoDark?: string;
+  accentDark?: string;
+
+  sandboxId?: string;
+  agentName?: string;
+}
+
 export const APP_CONFIG_DEFAULTS: AppConfig = {
   companyName: 'Sriven Smart Solutions',
   pageTitle: 'TechSuport Live',
@@ -8,8 +28,8 @@ export const APP_CONFIG_DEFAULTS: AppConfig = {
   supportsScreenShare: true,
   isPreConnectBufferEnabled: true,
 
-  logo: '/logo.png', // upload your logo into /public folder
-  accent: '#0078FF', // your preferred blue color
+  logo: '/logo.png',
+  accent: '#0078FF',
   logoDark: '/logo.png',
   accentDark: '#0078FF',
   startButtonText: 'Start Support Session',
