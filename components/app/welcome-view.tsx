@@ -42,9 +42,10 @@ export const WelcomeView = ({
         </Button>
       </section>
 
-    <footer className="fixed bottom-5 left-0 w-full text-center text-xs text-muted-foreground">
-  © 2025 LiveTechSupport
-</footer>
+         <footer className="text-muted-foreground fixed bottom-5 left-0 w-full text-center text-xs">
+        © 2025 LiveTechSupport
+      </footer>
+
 
     </div>
   );
