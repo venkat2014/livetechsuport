@@ -42,9 +42,12 @@ export const WelcomeView = ({
         </Button>
       </section>
 
-          <footer className="text-muted-foreground fixed bottom-5 left-0 w-full text-center text-xs">
-        © 2025 LiveTechSupport
-      </footer>
+       /* prettier-ignore-start */
+<footer className="text-muted-foreground fixed bottom-5 left-0 w-full text-center text-xs">
+  © 2025 LiveTechSupport
+</footer>
+/* prettier-ignore-end */
+
 
 
 
