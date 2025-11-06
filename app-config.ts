@@ -1,3 +1,6 @@
+// ✅ Full working version
+
+// Define the AppConfig interface first
 export interface AppConfig {
   pageTitle: string;
   pageDescription: string;
@@ -18,6 +21,7 @@ export interface AppConfig {
   agentName?: string;
 }
 
+// Default values for configuration
 export const APP_CONFIG_DEFAULTS: AppConfig = {
   companyName: 'Sriven Smart Solutions',
   pageTitle: 'TechSuport Live',
