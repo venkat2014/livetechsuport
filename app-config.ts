@@ -2,15 +2,16 @@
 
 // Define the AppConfig interface first
 export const APP_CONFIG_DEFAULTS: AppConfig = {
-  companyName: 'LiveSupport',
-  pageTitle: 'LiveSupport Voice Agent',
-  pageDescription: 'Ask your voice agent ',
+  companyName: 'LiveTechSupport',
+  pageTitle: 'LiveTechSupport',
+  pageDescription: 'Ask LiveTechSupport',
 
   supportsChatInput: true,
   supportsVideoInput: true,
   supportsScreenShare: true,
   isPreConnectBufferEnabled: true,
 
+  // leave empty if you don't have image assets yet
   logo: '',
   accent: '#002cf2',
   logoDark: '',
